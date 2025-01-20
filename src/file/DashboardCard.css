@@ -1,0 +1,27 @@
+.dashboard-card {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.dashboard-card .icon {
+  font-size: 35px;
+  color: #4e84d4;
+}
+
+.dashboard-card h3 {
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+.dashboard-card p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}

@@ -1,0 +1,128 @@
+/* ContactPage.css */
+
+/* Global container styling */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #00a7c7;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+  }
+  
+  /* Left Section (Tentang Kami) */
+  .about-section {
+    flex: 1;
+    padding: 40px;
+    background-color: #00a7c7;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .about-section h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .about-section p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #e0f7fc;
+  }
+  
+  /* Right Section (Hubungi Kami) */
+  .contact-section {
+    flex: 1;
+    padding: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .contact-section h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #2c3e50;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-section input:focus,
+  .contact-section textarea:focus {
+    border-color: #00a7c7;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 167, 199, 0.2);
+  }
+  
+  .contact-section textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  /* Submit Button */
+  .contact-section button {
+    width: 100%;
+    max-width: 200px;
+    background-color: #00a7c7;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-section button:hover {
+    background-color: #008ba0;
+    box-shadow: 0 4px 10px rgba(0, 139, 160, 0.3);
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .about-section,
+    .contact-section {
+      flex: unset;
+      padding: 20px;
+    }
+  
+    .contact-section form input,
+    .contact-section form textarea {
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,111 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+/* Layout styling */
+.site-layout {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff !important;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+/* Header styling */
+.site-layout-background h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.site-layout-background .ant-btn-primary {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Breadcrumb styling */
+.ant-breadcrumb {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.ant-breadcrumb a {
+  color: #1890ff;
+}
+
+/* Card container */
+.site-card-wrapper {
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card styling */
+.ant-card {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ant-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.ant-card-bordered {
+  border: none;
+}
+
+/* Typography for card values */
+.ant-card-body {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1890ff;
+}
+
+/* Chart container */
+.chart-container {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+.site-layout .ant-layout-footer {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #888;
+  background: #fff;
+  padding: 16px;
+  border-top: 1px solid #e8e8e8;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .site-card-wrapper {
+    padding: 8px;
+  }
+
+  .ant-card {
+    margin-bottom: 16px;
+  }
+
+  .chart-container {
+    padding: 8px;
+  }
+
+  .site-layout-background h2 {
+    font-size: 1.25rem;
+  }
+}

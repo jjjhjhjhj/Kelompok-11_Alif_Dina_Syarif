@@ -1,0 +1,103 @@
+/* EditProfilePage.css */
+.edit-profile-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #6610f2, #007bff);
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .edit-profile-container {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .edit-profile-container h1 {
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .profile-image-container {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+  }
+  
+  .image-upload-input {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .edit-profile-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+  }
+  
+  .form-actions {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  

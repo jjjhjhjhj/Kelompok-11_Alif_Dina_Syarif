@@ -1,0 +1,85 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header span {
+    color: #888;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .toolbar h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .toolbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-add {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-add:hover {
+    background-color: #0056b3;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f4f4f4;
+  }
+  
+  .empty-table {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+  }
+  
